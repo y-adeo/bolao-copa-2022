@@ -1,0 +1,263 @@
+@import "root/fonts.css";
+
+
+html {
+    height: 100%;
+    min-height: 100%;
+
+}
+
+body {
+}
+
+/* NAV */
+nav {
+    background: rgba(17, 68, 104, 0.6);
+    width: 100%;
+    /* background: url("../img/catar.jpg");
+    background-size: cover; */
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.nav-item-nome{
+    padding-top: 16px;
+    font-size: 16px;
+    font-family: spartan-regular;
+    color: #ffffff;
+    margin: 0 150px;
+
+}
+.logo{
+    width: 2%;
+    height: 2%;
+    margin: 10px  6px  0 20px;
+    
+
+}
+.nav-item{
+    padding-top: 16px;
+    padding-left: 12px;
+    font-size: 16px;
+    font-family: spartan-regular;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.nav-item:hover{
+    padding-top: 16px;
+    font-size: 20px;
+    font-family: spartan-regular;
+    color: #ffffff;
+}
+
+/* logo falavinha */
+#logofalavinha {
+    width: 180px;
+    height: 180px; 
+    margin: 6px 50px 0 45px;
+}
+
+.titulo{
+    font-family: Spartan-Bold;
+    text-align: center;
+    color: #fff;
+    margin-top: 38px;
+    margin-bottom: 45px;
+}
+
+/* Navegação escrita */
+/* .leftNav {
+    display: flex;
+    flex-direction: row;
+}
+
+#listaMenu {
+    padding: 50px;
+    
+    align-items: center;
+    list-style: none;
+}
+
+.navmenu-li {
+    margin-right: 20px;
+}
+
+.hvr-underline-reveal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: #045C63;
+    font-family: spartan-medium;
+    font-size: 16px;
+}
+
+
+.hvr-underline-reveal {
+    font-weight: 100;
+}
+  
+  .hvr-underline-reveal:hover {
+    font-weight: 900;
+    letter-spacing: 1px;
+} */
+
+
+
+
+                                                                                      
+
+  /* .hvr-underline-reveal:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #4C8E8F;
+    height: 3px;
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  } */
+
+  /* .hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  } */
+
+
+
+
+  /* .rightNav {
+      width: 450px;
+      height: 100%;
+     
+      background-size: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  } */
+
+  /* Pesquisar colaborador */
+  /* #searchBar {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: 3%;
+  }
+
+  #formSearchBar {
+      width: 322px;
+      height: 35px;
+      border-radius: 25px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  #txtBusca {
+      width: 219px;
+      border-top-left-radius: 2px;
+      border-bottom-left-radius: 2px;
+      background-color: transparent;
+      border: 3px solid #fff;
+      padding-left: 10px;
+  }
+
+  #txtBusca {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 1px solid #045C63
+  } */
+
+  
+
+  /* #btnBusca {
+    width: 103px;
+    height: 100%;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #045C63;
+    outline: none;
+    transition: 0.3s ease-in-out;
+    font-family: spartan-bold;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: 13px;
+
+  }
+  
+  #btnBusca:hover {
+    transition: 0.3 ease-in-out;
+    background: #045C63;
+    color:#fff;
+  } */
+  
+
+
+
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 20px;
+    /* background-color: rgba(70, 102, 151, 0.3); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 40px;
+    margin-top: auto;
+
+}
+
+.txtFooter {
+    font-size: 12px;
+    font-family: spartan-regular;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.imgLogoFala{
+    max-width: 12%;
+}
+
+
+
+/* Responsivo */
+
+@media (max-width: 1298px) {
+    .leftNav img {
+        margin: 0 39px 0 25px;
+    }
+
+    .navmenu-li a {
+        font-size: 14px;
+    }
+
+    #icon-nav, #pattern{
+        display: none;
+    }
+
+    #searchBar {
+        margin-right: 40px;
+    }
+}

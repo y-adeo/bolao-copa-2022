@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Gilroy-Black;
+    src: url("../../fonts/Gilroy-Black.ttf");
+}
+
+@font-face {
+    font-family: Gilroy-BoldItalic;
+    src: url("../../fonts/Gilroy-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url("../../fonts/Gilroy-Regular.ttf");
+}
+
+@font-face {
+    font-family: Gilroy-SemiBoldItalic;
+    src: url("../../fonts/Gilroy-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url("../../fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+    font-family: codebar;
+    src: url("../../fonts/eanbwrp36tt.ttf");
+}
+
+@font-face{
+    font-family: Boogaloo-Regular;
+    src:url("../../fonts/Boogaloo-Regular.ttf");
+}
+
+@font-face{
+    font-family: Spartan-Black;
+    src:url("../../fonts/Spartan-Black.ttf");
+}
+
+@font-face{
+    font-family: Spartan-Bold;
+    src:url("../../fonts/Spartan-Bold.ttf");
+}
+
+@font-face{
+    font-family: Spartan-ExtraBold;
+    src:url("../../fonts/Spartan-ExtraBold.ttf");
+}
+
+@font-face{
+    font-family: Spartan-ExtraLight;
+    src:url("../../fonts/Spartan-ExtraLight.ttf");
+}
+
+@font-face{
+    font-family: Spartan-Light;
+    src:url("../../fonts/Spartan-Light.ttf");
+}
+
+@font-face{
+    font-family: Spartan-Medium;
+    src:url("../../fonts/Spartan-Medium.ttf");
+}
+
+@font-face{
+    font-family: Spartan-Regular;
+    src:url("../../fonts/Spartan-Regular.ttf");
+}
+
+@font-face{
+    font-family: Spartan-SemiBold;
+    src:url("../../fonts/Spartan-SemiBold.ttf");
+}
+
+@font-face{
+    font-family: Spartan-Thin;
+    src:url("../../fonts/Spartan-Thin.ttf");
+}

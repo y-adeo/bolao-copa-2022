@@ -1,0 +1,362 @@
+html, body {
+    max-height: 100%;
+    min-height: 100%;
+    background: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-family: Spartan-Bold;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.row{
+    width: 80%;
+    align-items: center;
+    display: grid;
+    height: auto;
+    grid-template-columns: 50% auto;
+	grid-template-rows: 150px auto;
+    gap: 25px;
+	/* grid-template-areas:
+		'main main'
+        'main main'; */
+    margin-bottom: 35px;
+
+}
+
+
+
+
+.btn-primaryA{
+    /* grid-area: main; */
+
+    align-items: center;
+    background: rgba(17, 68, 104, 0.6);
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.25);
+    width: 400px;
+    height: 100px;
+    transition: background-color 2.2s;
+    transition-duration: 1s;
+    transition: 0.5s;
+    color: #fff;
+    font-family: spartan-regular;
+    font-size: 28px;
+}
+
+.btn-primaryA:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(17, 68, 104);
+    width: 420px;
+    height: 150px;
+    font-family: spartan-bold;
+}
+
+
+
+
+.btn-primaryR{
+    /* grid-area: main; */
+
+    align-items: center;
+    background: rgba(17, 68, 104, 0.6);
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.25);
+    width: 400px;
+    height: 100px;
+    transition: background-color 2.2s;
+    transition-duration: 1s;
+    transition: 0.5s;
+    color: #fff;
+    font-family: spartan-regular;
+    font-size: 28px;
+} 
+
+.btn-primaryR:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(17, 68, 104);
+    width: 420px;
+    height: 130px;
+    font-family: spartan-bold;
+}
+
+
+
+
+
+.btn-primaryJ{
+    /* grid-area: main; */
+
+    align-items: center;
+    background: rgba(17, 68, 104, 0.6);
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.25);
+    width: 400px;
+    height: 100px;
+    transition: background-color 2.2s;
+    transition-duration: 1s;
+    transition: 0.5s;
+    color: #fff;
+    font-family: spartan-regular;
+    font-size: 28px;
+}
+
+.btn-primaryJ:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(17, 68, 104);
+    width: 420px;
+    height: 150px;
+    font-family: spartan-bold;
+}
+
+
+
+
+.btn-primaryL{
+    /* grid-area: main; */
+
+    align-items: center;
+    background: rgba(17, 68, 104, 0.6);
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.25);
+    width: 400px;
+    height: 100px;
+    transition: background-color 2.2s;
+    transition-duration: 1s;
+    transition: 0.5s;
+    color: #fff;
+    font-family: spartan-regular;
+    font-size: 28px;
+}
+
+.btn-primaryL:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(17, 68, 104);
+    width: 420px;
+    height: 130px;
+    font-family: spartan-bold;
+}
+
+
+
+
+
+.btn-primaryG{
+    /* grid-area: main; */
+
+    align-items: center;
+    background: rgba(17, 68, 104, 0.6);
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.25);
+    width: 400px;
+    height: 100px;
+    transition: background-color 2.2s;
+    transition-duration: 1s;
+    transition: 0.5s;
+    color: #fff;
+    font-family: spartan-regular;
+    font-size: 28px;
+}
+
+.btn-primaryG:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(17, 68, 104);
+    width: 420px;
+    height: 130px;
+    font-family: spartan-bold;
+}
+
+
+
+
+
+.btn-primaryK{
+    /* grid-area: main; */
+
+    align-items: center;
+    background: rgba(17, 68, 104, 0.6);
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.25);
+    width: 400px;
+    height: 100px;
+    transition: background-color 2.2s;
+    transition-duration: 1s;
+    transition: 0.5s;
+    color: #fff;
+    font-family: spartan-regular;
+    font-size: 28px;
+}
+
+.btn-primaryK:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(17, 68, 104);
+    width: 420px;
+    height: 130px;
+    font-family: spartan-bold;
+}
+
+
+
+
+/* Footer */
+footer {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom:0;
+}
+
+.txtFooter {
+    font-size: 12px;
+    font-family: spartan-regular;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.imgLogoFala{
+    max-width: 12%;
+}
+
+
+
+
+/* Responsivo */
+
+/* Título */
+@media screen and (min-width: 301px) {
+    .titulo {
+      font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .titulo {
+      font-size: 40px;
+    }
+}
+
+
+  
+
+
+
+/* Cards Início */
+
+/* @media screen and (min-width: 601px) {
+    .btn-primaryL {
+        width: 400px;
+        height: 100px;
+    }
+}
+  
+
+
+@media screen and (max-width: 1500px) {
+    .btn-primaryL {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 601px) {
+    .btn-primaryR {
+        width: 400px;
+        height: 100px;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .btn-primaryR {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .btn-primaryR {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 601px) {
+    .btn-primaryG {
+        width: 400px;
+        height: 100px;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .btn-primaryG {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 601px) {
+    .btn-primaryA {
+        width: 400px;
+        height: 100px;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .btn-primaryA {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 601px) {
+    .btn-primaryJ {
+        width: 400px;
+        height: 100px;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .btn-primaryJ {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 601px) {
+    .btn-primaryK {
+        width: 400px;
+        height: 100px;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .btn-primaryK {
+        width: 500px;
+        height: 300px;
+    }
+} */
+

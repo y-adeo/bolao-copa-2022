@@ -1,0 +1,66 @@
+html, body {
+    max-height: 100%;
+    min-height: 100%;
+    background: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-family: Spartan-Bold;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.row{
+    width: 95%;
+    height: 90%; 
+    align-items: center;
+    display: grid;
+    grid-template-columns: 49% 49%;
+	grid-template-rows: auto auto;
+    gap: 2%;
+    margin-bottom: 10%;
+}
+
+.col{
+    background: rgba(17, 68, 104, 0.6);
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+}
+
+.col:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.25);
+}
+
+.imgGrupos{
+    position: center;
+    width: 100%;
+    padding: 30px;
+    /* margin: 15px 0 15px 0; */
+}
+
+
+/* Responsivo */
+@media screen and (min-width: 601px) {
+    .titulo {
+      font-size: 35px;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .titulo {
+      font-size: 30px;
+    }
+}

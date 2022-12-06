@@ -1,0 +1,86 @@
+html, body {
+    max-height: 100%;
+    min-height: 100%;
+    background: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-family: Spartan-Bold;
+    text-align: center;
+    color: #fff;
+    margin-top: 38px;
+    margin-bottom: 45px;
+
+}
+.card{
+    align-items: center;
+    background: rgba(17, 68, 104, 0.6);
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.25);
+    transition: background-color 2.2s;
+    transition-duration: 1s;
+    transition: 0.5s;
+    color: #fff;
+    font-family: spartan-regular;
+    font-size: 26px;
+    margin: 0 0 25px 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.card:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(17, 68, 104);
+    font-family: spartan-bold;
+}
+.img_card{
+    padding: 0  0  10px 0;
+}
+
+.card_jogo{
+    text-align: center;
+}
+.btn_jogo{
+    background-color: rgba(100, 6, 22, 0.71);
+    border: none;
+    color:#fff;
+}
+.btn_jogo:hover{
+    background-color: rgb(100, 6, 22);
+    border: none;
+    color:#fff;
+}
+.div_jogo{
+    padding: 10px;
+}
+/* .titulo_jogo,.grupo_jogo,.data_jogo,.hora_jogo{
+    color: #fff;
+    text-align: center;
+} */
+/* .titulo_jogo:hover,.grupo_jogo:hover,.data_jogo:hover,.hora_jogo:hover{
+    color: rgb(17, 68, 104);
+} */
+
+
+
+/* Responsivo */
+@media screen and (min-width: 601px) {
+    .titulo {
+      font-size: 35px;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .titulo {
+      font-size: 30px;
+    }
+}

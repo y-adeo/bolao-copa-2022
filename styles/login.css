@@ -1,0 +1,69 @@
+html, body {
+    max-height: 100%;
+    min-height: 100%;
+    background: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+/* h1{
+    font-family: spartan-semibold;
+    text-align: center;
+} */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.titulo{
+    font-family: spartan-semibold;
+    text-align: center;
+    margin-top: 20vh; 
+    color: #ffffff;
+}
+
+.altera{
+    width: 60%;
+    height: auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    color: #ffffff;
+    font-family: spartan-regular;
+}
+
+input{
+    padding: 15px;
+    border:none;
+    outline: none;
+    width:300px;
+    border-radius: 15px;
+}
+
+button{
+    background-color: rgba(100, 6, 22, 0.71);
+    border: none;
+    padding: 15px;
+    width: 300px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-family: spartan-regular;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: rgb(100, 6, 22);
+}
+
+span{
+    text-align: center;
+    font-family: spartan-regular;
+    color: red;
+    padding-bottom: 10px;
+}

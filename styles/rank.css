@@ -1,0 +1,65 @@
+html, body {
+    max-height: 100%;
+    min-height: 100%;
+    background: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rank_element{
+    background: rgba(17, 68, 104, 0.6);
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.25);
+    transition: background-color 2.2s;
+    transition-duration: 1s;
+    transition: 0.5s;
+    color: #fff;
+    font-family: spartan-regular;
+    font-size: 16px;
+    padding-top: 14px;
+    margin: 30px 0 0 0;
+}
+.rank_element:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(17, 68, 104);
+    font-family: spartan-bold;
+}
+
+.rank_element_me{
+    background: rgba(166, 207, 236, 0.6);
+    box-shadow: 10px 10px 20px rgba(179, 177, 177, 0.25);
+    transition: background-color 2.2s;
+    transition-duration: 1s;
+    transition: 0.5s;
+    color: #fff;
+    font-family: spartan-regular;
+    padding-top: 14px;
+    margin: 30px 0 0 0;
+    border-radius: 4px;
+}
+
+.rank_element_me:hover{
+    background: rgba(60, 13, 71, 0.6);
+    box-shadow: 10px 10px 20px rgba(179, 177, 177, 0.25);
+    transition: background-color 2.2s;
+    transition-duration: 1s;
+    transition: 0.5s;
+    color: #fff;
+    font-size: 20px;
+    font-family: spartan-regular;
+    margin: 30px 0 0 0;
+    border-radius: 4px;
+}
+
+.div_rank{
+    text-align: center;
+}
+.div_nome{
+    text-align: center;
+}
+.div_pontos{
+    text-align: center;
+}

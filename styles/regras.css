@@ -1,0 +1,121 @@
+html, body {
+    max-height: 100%;
+    min-height: 100%;
+    background: url("../img/gramaEsc.jpg"); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+nav {
+    background: rgba(2, 109, 43, 0.6);
+    width: 100%;
+    /* background: url("../img/catar.jpg");
+    background-size: cover; */
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.nav-item-nome{
+    padding-top: 16px;
+    font-size: 16px;
+    font-family: spartan-regular;
+    color: #ffffff;
+    margin: 0 150px;
+
+}
+.logo{
+    width: 2%;
+    height: 2%;
+    margin: 10px  6px  0 20px;
+    
+
+}
+.nav-item{
+    padding-top: 16px;
+    padding-left: 12px;
+    font-size: 16px;
+    font-family: spartan-regular;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.nav-item:hover{
+    padding-top: 16px;
+    font-size: 20px;
+    font-family: spartan-regular;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulo{
+    font-family: Spartan-Bold;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+.regras{
+    color:#fff;
+    text-align: center;
+    background: rgba(2, 109, 43, 0.6);
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+
+}
+
+
+.subTituloPrincipal{
+    font-family: spartan-semibold;
+    font-size: 26px;
+    color: rgb(171 205 38);
+    padding: 5vh 0 0 0;
+
+}
+
+.subTituloSecundario{
+    font-family: spartan-regular;
+    font-size: 18px;
+    padding: 0 25vh 0 25vh;
+
+}
+
+
+/* Responsivo */
+@media screen and (min-width: 601px) {
+    .titulo {
+      font-size: 30px;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .titulo {
+      font-size: 30px;
+    }
+}

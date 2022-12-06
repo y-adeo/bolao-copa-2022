@@ -1,0 +1,115 @@
+@import "../root/fonts.css";
+@import "../root/scroll.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy-Regular;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-falavinha {
+    width: 207px;
+    height: 47px;
+    margin: 26px 28px 0 21px;
+}
+
+.usuario {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.thumb {
+    position: relative;
+    width: 65px;
+    height: 65px;  
+    overflow: hidden;
+    border: 2px solid #145D60;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+.thumb img {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    height: auto;
+    width: 200%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);     
+}
+
+
+/* Aside */
+
+#page {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: 0;
+}
+
+.aside {
+    grid-area: aside;
+    list-style: none;
+    height: 77vh;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    width: 212px;
+    text-align: center;
+    margin: 50px auto 0 auto;
+}
+
+#links a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding-top: 6px;
+    height: 32px;
+    background-color: #c7c7c7;
+    color: #000;
+    font-family: Gilroy-Regular;
+    transition: .2s;
+}
+
+#links a:hover {
+    background-color: #727272;
+    color: #fff;
+}
+
+#sair {
+    position: absolute;
+    bottom: 32px;
+    margin-left: 150px;
+}
+
+#btnSair {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    transition: .8s;
+}
+
+#btnSair:hover {
+    color: #ff0000;
+    padding: 5px;
+    border: 1px solid #ff0000;
+}
+
+.main {
+    grid-area: main;
+    background-color: #E7E7E7;
+    height: 86vh;
+    border-radius: 15px;
+    border: 3px solid rgb(100, 100, 100);
+    overflow: scroll;
+    overflow-x: hidden;
+}
